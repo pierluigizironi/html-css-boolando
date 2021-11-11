@@ -16,12 +16,12 @@
 /* Products */
 
 .product {
-    height: 400px;
-    width: calc(100% / 3 - 4px);
+    height: 450px;
+    width: calc(100% / 3 - 25px);
     background-color: #E5E6E3;
     position: relative;
     display: inline-block;
-    margin: 10px 0px 1px 20px;
+    margin: 10px 0px 1px 10px;
 }
 
 img{
@@ -50,6 +50,13 @@ img{
     position: absolute;
     bottom: 13px;
     left: 35px;
+}
+
+.sustainability-only.content-tag {
+    background-color: #04875A;
+    position: absolute;
+    bottom: 13px;
+    left: 0px;
 }
 
 .wishlist {
