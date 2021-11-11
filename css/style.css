@@ -85,3 +85,14 @@ img{
 .original-prize.prize {
     text-decoration: line-through;
 }
+
+/* Overlay */
+
+.overlay {
+    position: absolute;
+  visibility: hidden;
+}
+
+.product:hover .overlay {
+    visibility: visible;
+}
