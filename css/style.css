@@ -11,3 +11,13 @@
     margin: 0 auto;
     height: 500px;
 }
+
+/* Products */
+
+.product {
+    height: 350px;
+    width: calc(100% / 3 - 4px);
+    background-color: #E5E6E3;
+    position: relative;
+    display: inline-block;
+}
