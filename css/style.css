@@ -16,7 +16,7 @@
 /* Products */
 
 .product {
-    height: 450px;
+    height: 440px;
     width: calc(100% / 3 - 25px);
     background-color: #E5E6E3;
     position: relative;
@@ -100,15 +100,16 @@ img{
   position: absolute;
   visibility: hidden;
   cursor: pointer;
+  height: 446px;
 }
 
-.product:hover .overlay {
+.display-clothes:hover .overlay{
     visibility: visible;
 }
 
-/* wishlist */
+/* Wishlist hover  */
 
-.wishlist:not(.product):hover{
+.wishlist:hover{
     color: red;
     cursor: pointer;
 }
