@@ -59,3 +59,29 @@ img{
     top: 10px;
     right: 0px;
 }
+
+/* Product description */
+
+.brand-name {
+    font-size: 10px;
+    display: block;
+}
+
+.product-name {
+    font-weight: bold;
+    display: block;
+    font-size: 12px;
+}
+
+.prize {
+    font-size: 11px;
+}
+
+.product-prize.prize {
+    color: red;
+    font-weight: bold;
+}
+
+.original-prize.prize {
+    text-decoration: line-through;
+}
