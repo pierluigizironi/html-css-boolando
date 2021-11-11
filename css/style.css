@@ -35,13 +35,19 @@ img{
     font-size: 10px;
     font-weight: bold;
     padding: 3px 5px;
-    display: inline-block;
+    display: inline;
 }
 
 .discount.content-tag {
     background-color: #EB0038;
     position: absolute;
     bottom: 13px;
+    left: 0px;
 }
 
-.sustainability
+.sustainability.content-tag {
+    background-color: #04875A;
+    position: absolute;
+    bottom: 13px;
+    left: 35px;
+}
